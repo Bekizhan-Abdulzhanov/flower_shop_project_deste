@@ -2,6 +2,9 @@ from pathlib import Path
 from corsheaders.defaults import default_methods
 from corsheaders.defaults import default_headers
 
+import os
+from django.core.wsgi import get_wsgi_application
+from django.core.wsgi import get_wsgi_application
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
